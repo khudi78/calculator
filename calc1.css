@@ -48,3 +48,73 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media (max-width: 600px) {
+    .calculator {
+        height: 100px;
+        width: 250px;
+        /* grid-template-columns: repeat(4, 1fr);
+        grid-gap: 5px; */
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    #calc{
+        background-image: url("calc_bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .btn, .buton {
+        height: 60px;
+        width: 60px;
+        font-size: 16px;
+    }
+
+    .buton {
+        padding-right: 10px;
+        width: 250px;
+    }
+
+    #result {
+        font-size: 24px;
+    }
+
+    .btn:hover {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .calculator {
+        height: 90%;
+        width: 95%;
+        /* grid-template-columns: repeat(4, 1fr); */
+        
+    }
+
+    .btn, .buton {
+        height: 50px;
+        width: 50px;
+        font-size: 14px;
+    }
+
+    .buton {
+        padding-right: 5px;
+    }
+
+    #result {
+        font-size: 20px;
+    }
+
+    .btn:hover {
+        font-size: 18px;
+    }
+}
