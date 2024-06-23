@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc1.css">
+    <title>Calculator</title>
+
+</head>
+<body id="calc">
+    <table class="calculator">
+        <tr>
+           <td colspan="3"><input type="text" class="buton" id="result"  ></td> 
+           <td><button onclick="clearScreen()" value="AC" class="btn" >AC</button></td>
+            
+        </tr>
+         <tr>
+            <td><input type="button" onclick="display('1')" value="1" class="btn"/></td>
+            <td><input type="button" onclick="display('2')" value="2" class="btn"/></td>
+            <td><input type="button" onclick="display('3')" value="3" class="btn"/></td>
+            <td><input type="button" onclick="display('/')" value="/" class="btn"/>/</td>
+          
+        </tr>
+           <tr>
+            <td><input type="button" onclick="display('4')" value="4"  class="btn"></td>
+            <td><input type="button" onclick="display('5')" value="5" class="btn"/></td>
+            <td><input type="button" onclick="display('6')" value="6" class="btn"/></td>
+            <td><input type="button" onclick="display('-')" value="-" class="btn"/></td>
+            
+        </tr>
+         <tr>
+            <td><input type="button" onclick="display('7')" value="7" class="btn"/></td>
+            <td><input type="button" onclick="display('8')" value="8" class="btn"/></td>
+            <td><input type="button" onclick="display('9')" value="9" class="btn"/></td>
+            <td><input type="button" onclick="display('+')" value="+" class="btn" /></td>
+            
+        </tr>
+        
+        </tr> <tr>
+            <td><input type="button" onclick="display('.')" value="." class="btn"/></td>
+            <td><input type="button" onclick="display('0')" value="0" class="btn"/></td>
+            <td><input type="button" onclick="calculate()" value="=" class="btn"/></td>
+            <td><input type="button" onclick="display('*')" value="*" class="btn"/></td>
+           
+        </tr>
+    </table>
+    <script type="text/javascript" src="calc2.js"></script>
+    
+</body>
+</html>
