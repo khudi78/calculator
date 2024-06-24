@@ -1,4 +1,4 @@
-Simple Calculator
+# Simple Calculator
 
 A simple calculator built using HTML, CSS, and JavaScript. This calculator performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
 Features
@@ -10,11 +10,11 @@ Features
 
 
 To run this project locally, follow these steps:
-Prerequisites
+## Prerequisites
 
     A web browser (e.g., Chrome, Firefox, Edge)
 
-Steps
+## Steps
 
     Clone the repository
             git clone https://github.com/yourusername/calculator.git
